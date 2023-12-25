@@ -48,7 +48,11 @@ input a,b;
 output sum,carry;
 assign sum=a^b;
 assign carry=a&b;
-endmodule 
+endmodule
+
+code:
+
+![Screenshot 2023-12-25 143721](https://github.com/Roopsagar23001830/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145972515/36e031ec-7b27-4eca-8b0b-d0f846a70376)
 
 2. Program to design a full adder:
 
@@ -56,6 +60,10 @@ module fulladder(input a,b,cin,output s,Cout);
 assign s=a^b^cin;
 assign Cout=(a&b)|(b&cin)|(a&cin);
 endmodule    
+
+code:
+
+![Screenshot 2023-12-25 150424](https://github.com/Roopsagar23001830/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145972515/6bdfc16e-e02d-4b05-8b80-0a26ad15e58c)
 
 Truthtable:Half adder:
 
@@ -72,7 +80,7 @@ half adder:
 
 full adder:
 
-![Screenshot 2023-12-25 144222](https://github.com/Roopsagar23001830/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145972515/764cdd70-756f-4962-8cae-6b5f5dac6d0d)
+![Screenshot 2023-12-25 150438](https://github.com/Roopsagar23001830/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145972515/5645a32d-5687-46a3-a7c4-8ed0181673ad)
 
 ### Output waveform:
 half adder:
@@ -81,7 +89,7 @@ half adder:
 
 full adder:
 
-![Screenshot 2023-12-25 144405](https://github.com/Roopsagar23001830/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145972515/b1da8ad1-fb1a-4090-8798-404af7982bcc)
+![Screenshot 2023-12-25 150643](https://github.com/Roopsagar23001830/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145972515/ef6cb984-0d4a-4976-bf70-bd2373aa21ce)
 
 ### Result:
 Thus the half adder and full adder circuit are designed and the truth table for half adder and full adder are verified.
